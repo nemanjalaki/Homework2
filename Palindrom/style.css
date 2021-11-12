@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+}
+.cellContainer{
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+}
+.cellContainer >  .cell > .input{
+    display: block;
+    font-family:  Arial, Helvetica, sans-serif;
+    width: 25px;
+    height: 25px;
+    border: 1px solid navy;
+    cursor: pointer;
+    /* font-size: 4px; */
+    background-color: green;
+    margin: 2px;
+}
+.cellContainer > .cell >.removeCell{
+    display: block;
+    position: center;
+    margin: 2px;
+}
+li{
+    list-style: none;
+}
+
+

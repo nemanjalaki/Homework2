@@ -1,0 +1,22 @@
+body{
+ font-family: "Calibri", sans-serif;
+}
+
+.box{
+    text-align: center;
+}
+
+.game{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 300px;
+    margin: 50px auto;
+}
+.cell{
+    font-family:  cursive;
+    width: 100px;
+    height: 100px;
+    border: 1px solid navy;
+    cursor: pointer;
+    font-size: 60px;
+}

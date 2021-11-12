@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Palindrom</title>
+</head>
+<body>
+    <h1>Unesi broj karaktera</h1>
+    <form id="firstForm">
+        <input type="text" id="inputFirst" size="10">
+        <input type="submit" class="firstSubmit" value="Submit">
+    </form>
+
+    <form id="oneCellForm">
+        <input type="submit" class="addOneCell" value="Dodaj jednu celiju">
+    </form>
+    <br><br>
+    <ul id="cellContainer" class="cellContainer">     
+        <li id="cell" class="cell">
+            <input type="text" id="input" class="input" size="1" maxlength="1">
+            <button class="removeCell">X</button>
+        </li>
+    </ul>
+    <h1 class="message"></h1>
+    <script src="dom.js"></script>
+</body>
+</html>

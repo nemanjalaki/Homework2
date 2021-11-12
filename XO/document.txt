@@ -1,0 +1,9 @@
+XO
+1. igra u dvoje X igrac i O igrac
+2. prvi igrac je uvijek X
+3. tabela 3x3
+4. nerijeseno -> restart igre
+5. pobjednik -> alert X/O pobjednik
+6. samo Lijevi klik radi
+7. Koji je igrac na potezu i da li je polje prazno
+8. posle svakog poteza provjeriti ima li pobjednika
